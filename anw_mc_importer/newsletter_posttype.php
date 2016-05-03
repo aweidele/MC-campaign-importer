@@ -30,7 +30,7 @@ function register_post_types() {
 		//"menu_position" => 21
 	  ); 
  
-	register_post_type( 'newsletter' , $args );
+	register_post_type( 'anw_newsletter' , $args );
 	flush_rewrite_rules();
 }
 ?>
